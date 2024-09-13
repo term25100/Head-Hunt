@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-
+import './header.js';
+import { HeadHeader } from './header';
+import { useState } from 'react';
 function App() {
+  const [isChecked, setIsCheked]=useState(false);
+  const handleCheckboxChange=()=>{
+    setIsCheked(prev=> !prev);
+  };
+  const background=isChecked? 'App-light' : 'App';
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={background}>
+      <HeadHeader theme={isChecked} onCheckboxChange={handleCheckboxChange}/>
     </div>
   );
 }

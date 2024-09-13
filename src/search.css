@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url(./fonts/OpenSans-Regular.ttf);
+}
+.search{
+    font-family: 'OpenSans';
+    height: 2vw;
+    width: 13vw;
+    background-color: rgb(30, 30, 30);
+    color: rgb(23, 255, 189);
+    outline: none;
+    border: none;
+    font-size: 1.2vw;
+}
+.search-light{
+    font-family: 'OpenSans';
+    height: 2vw;
+    width: 13vw;
+    background-color: #1A2238;
+    color: #F4DB7D;
+    outline: none;
+    border: none;
+    font-size: 1.2vw;
+}
+.searchContainer{
+    width: 17vw;
+    height: 2.5vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 30, 30);
+    border: 0.1vw solid rgb(23, 255, 189);
+    border-radius: 2vw;
+}
+.searchContainer-light{
+    width: 17vw;
+    height: 2.5vw;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A2238;
+    border: 0.1vw solid #F4DB7D;
+    border-radius: 2vw;
+}

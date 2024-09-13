@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'vinir';
+    src: url(./fonts/veneer-two.ttf);
+}
+
+.logo{
+    font-size: 2vw;
+    margin: 1vw auto;
+    text-align: center;
+    display: block;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'vinir';
+    color: white;
+    transform: skew(-5deg);
+}
+
+.logo-light{
+    font-size: 2vw;
+    margin: 1vw auto;
+    text-align: center;
+    display: block;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: 'vinir';
+    color: black;
+    transform: skew(-5deg);
+}
+
+.logoSpan{
+    color: rgb(23, 255, 189);
+    
+}
+.logoSpan::after{
+    content: " / ";
+    color: #ff0000;
+}
+
+.logoSpan-light{
+    color: #ff0000;
+    
+}
+.logoSpan-light::after{
+    content: " / ";
+    color: blue;
+}
