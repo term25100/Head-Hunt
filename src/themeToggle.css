@@ -1,0 +1,25 @@
+
+.toggle{
+    width: 1.7vw;
+    height: 1.7vw;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 50%;
+    background-image: url(./images/sun.png);
+    background-size: cover;
+    margin-right: 1.5vw;
+    transition: all ease-out 0.6s;
+    cursor: pointer;
+}
+.toggle-light{
+    width: 1.7vw;
+    height: 1.7vw;
+    appearance: none;
+    background-color: transparent;
+    border-radius: 50%;
+    background-image: url(./images/moon.png);
+    background-size: cover;
+    margin-right: 1.5vw;
+    transition: all ease-out 0.6s;
+    cursor: pointer;
+}

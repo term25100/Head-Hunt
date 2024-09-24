@@ -36,6 +36,7 @@
     z-index: 0;
     border-radius: 10px;
     font-size: 1.7vw;
+    transition: all ease-out 0.3s;
 }
 
 .glowing:before {
@@ -56,7 +57,7 @@
 }
 .glowing:hover{
     border: 1px solid rgb(23, 255, 189);
-    transition: all 0.6s ease-out;
+    transition: all 0.3s ease-out;
 }
 .glowing:active {
     color: rgb(30, 30, 30);
@@ -110,6 +111,7 @@
     z-index: 0;
     border-radius: 10px;
     font-size: 1.7vw;
+    transition: all ease-out 0.3s;
 }
 
 .glowing-light:before {
@@ -130,7 +132,7 @@
 }
 .glowing-light:hover{
     border: 1px solid rgb(23, 255, 189);
-    transition: all 0.6s ease-out;
+    transition: all 0.3s ease-out;
 }
 .glowing-light:active {
     color: #1A2238;

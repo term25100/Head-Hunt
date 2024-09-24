@@ -15,7 +15,7 @@
 .glowingHeader{
     position: fixed;
     width: 100%;
-    height: auto;
+    height: 5vw;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -26,11 +26,12 @@
     font-size: 1vw;
     font-family: 'OpenSans';
     box-shadow: 0px 15px 16px 0px rgba(34, 60, 80, 0.36);
+    transition: all ease-out 0.3s;
 }
 .glowingHeader-light{
     position: fixed;
     width: 100%;
-    height: auto;
+    height: 5vw;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -41,5 +42,11 @@
     font-size: 1vw;
     font-family: 'OpenSans';
     box-shadow: 0px 15px 16px 0px rgba(34, 60, 80, 0.36);
+    transition: all ease-out 0.3s;
 }
 
+.navigation{
+    width: 68vw;
+    display: flex;
+    justify-content: space-between;
+}
