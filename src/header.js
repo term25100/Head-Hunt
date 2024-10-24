@@ -1,4 +1,4 @@
-import './header.css';
+import './Css/header.css';
 import './buttons.js';
 import './logo.js';
 import { HeadButton } from './buttons.js';
@@ -19,10 +19,10 @@ export function HeadHeader({ theme, onCheckboxChange }){
             <HeadLogo themeLogo={logoClass} themeSpan={logoSpan}/>
             <SearchField container={searchContainer} search={searchTheme} btnTheme={searchImage}/>
             <nav className='navigation'>
-                <HeadButton theme={buttonsClass} href="news.html" text="Новости"/>
-                <HeadButton theme={buttonsClass} href="workers.html" text="Для рабочих"/>
-                <HeadButton theme={buttonsClass} href="employeers.html" text="Для работодателей"/>
-                <HeadButton theme={buttonsClass} href="privateRoom.html" text="Личный кабинет"/> 
+                <HeadButton theme={buttonsClass} href="news.html" text="Мое резюме"/>
+                <HeadButton theme={buttonsClass} href="workers.html" text="Мои отклики"/>
+                <HeadButton theme={buttonsClass} href="employeers.html" text="Мои вакансии"/>
+                <HeadButton theme={buttonsClass} href="privateRoom.html" text="Профиль"/> 
             </nav>
             <ToggleTheme theme={toggleTheme} check={theme} change={onCheckboxChange}/>
         </header>

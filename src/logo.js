@@ -1,4 +1,4 @@
-import './logo.css'
+import './Css/logo.css'
 
 export function HeadLogo({themeLogo, themeSpan}){
     return(

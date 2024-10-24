@@ -1,27 +1,27 @@
 @font-face {
     font-family: 'OpenSans';
-    src: url(./fonts/OpenSans-Regular.ttf);
+    src: url(../fonts/OpenSans-Regular.ttf);
 }
 @font-face {
     font-family: 'OpenExtra';
-    src: url(./fonts/OpenSans-ExtraBold.ttf);
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
 }
 @font-face{
     font-family: 'sanslem';
-    src: url(./fonts/sanslem.ttf);
+    src: url(../fonts/sanslem.ttf);
 }
 
 @font-face {
     font-family: 'bebas';
-    src: url(./fonts/Bebas\ Neue\ Cyrillic.ttf);
+    src: url(../fonts/Bebas\ Neue\ Cyrillic.ttf);
 }
 .glowing {
     font-family: 'bebas';
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15vw;
-    height: 3vw;
+    width: 10vw;
+    height: 2.5vw;
     border: none;
     margin: 0 auto;
     margin-top: 0.7vw;
@@ -35,7 +35,7 @@
     position: relative;
     z-index: 0;
     border-radius: 10px;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     transition: all ease-out 0.3s;
 }
 
@@ -95,8 +95,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15vw;
-    height: 3vw;
+    width: 10vw;
+    height: 2.5vw;
     border: none;
     margin: 0 auto;
     margin-top: 0.7vw;
@@ -110,7 +110,7 @@
     position: relative;
     z-index: 0;
     border-radius: 10px;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     transition: all ease-out 0.3s;
 }
 
@@ -160,20 +160,20 @@
 }
 
 .searchButton-light{
-    width: 1.7vw;
-    height: 1.7vw;
+    width: 1.5vw;
+    height: 1.5vw;
     background-color: transparent;
-    background-image: url("./images/loupe.png");
+    background-image: url("../images/loupe.png");
     background-size: cover;
     border: none;
     outline: none;
     cursor: pointer;
 }
 .searchButton{
-    width: 1.7vw;
-    height: 1.7vw;
+    width: 1.5vw;
+    height: 1.5vw;
     background-color: transparent;
-    background-image: url("./images/loupe2.png");
+    background-image: url("../images/loupe2.png");
     background-size: cover;
     border: none;
     outline: none;

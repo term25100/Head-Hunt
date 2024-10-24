@@ -1,21 +1,21 @@
 
 @font-face {
     font-family: 'OpenSans';
-    src: url(./fonts/OpenSans-Regular.ttf);
+    src: url(../fonts/OpenSans-Regular.ttf);
 }
 @font-face {
     font-family: 'OpenExtra';
-    src: url(./fonts/OpenSans-ExtraBold.ttf);
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
 }
 @font-face{
     font-family: 'sanslem';
-    src: url(./fonts/sanslem.ttf);
+    src: url(../fonts/sanslem.ttf);
 }
 
 .glowingHeader{
     position: fixed;
     width: 100%;
-    height: 5vw;
+    height: 4vw;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@
 .glowingHeader-light{
     position: fixed;
     width: 100%;
-    height: 5vw;
+    height: 4vw;
     justify-content: space-between;
     display: flex;
     align-items: center;
@@ -46,7 +46,7 @@
 }
 
 .navigation{
-    width: 68vw;
+    width: 55vw;
     display: flex;
     justify-content: space-between;
 }
